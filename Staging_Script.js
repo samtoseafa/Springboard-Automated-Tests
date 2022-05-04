@@ -1,8 +1,8 @@
 /// <reference types = "cypress" />
 it("Salesforce Sign-in", function () {
     cy.visit("https://springboardcollab.my.salesforce.com/")
-    cy.get('#username').type("")
-    cy.get('#password').type("")
+    cy.get('#username').type("") //enter user id str
+    cy.get('#password').type("") // enter password str
     cy.get('#Login').click()
 })
 
