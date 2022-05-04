@@ -4,6 +4,7 @@ it('Google test', function () {
 	cy.visit('https://google.com')  //enables you to visit independent webpages
 	/* See cypress.json - put some changes in there to prevent 
 	 * asserts when switching between webpages
+	 * "chromeWebSecurity": false
 	 */ 
 	cy.get('.gLFyf', { timeout: 6000 }).type('Springboard Collaborative{enter}') // can use interact tool to obtain this code
 	//enter keyword manually typed- check for other keystrokes needed.
