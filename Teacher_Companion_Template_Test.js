@@ -39,21 +39,6 @@ it("Teacher Companion Check", function () {
     cy.get('.sidebar-nav > div > .btn').click()
 })
 
-/*
-it("Flagship Teacher Companion Check", function () {
-    cy.get(':nth-child(4) > [style="width: 320px; height: 200px; padding: 20px; border-radius: 20px; text-align: center; background-color: rgb(235, 105, 46);"]').click()
-    //whatever we want to check
-    cy.wait(10000)
-    cy.get('.sidebar-nav > div > .btn').click()
-})
-
-it("Student/Teacher Management Check", function () {
-    cy.get(':nth-child(2) > [style="width: 320px; height: 200px; padding: 20px; border-radius: 20px; text-align: center; background-color: rgb(0, 111, 182);"]').click()
-    //whatever we want to check
-    cy.wait(10000)
-    cy.get('.sidebar-nav > div > .btn').click()
-})
-*/
 
 
 
