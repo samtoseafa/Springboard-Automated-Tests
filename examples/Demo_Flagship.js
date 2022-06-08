@@ -1,12 +1,12 @@
 /// <reference types = "cypress" />
-/*
+
 it("Salesforce Sign-in", function () {
     Cypress.Cookies.debug(true)
     cy.setCookie('sid', '00D6A000001WlN3!AQ4AQD26gA4EO6fCIPqCD2oiQGVbH9ZrBwjtptUZqG3O54MWDEvvNaVuD2a6ihypyqYP4G_EfZuegQwWS56wLd5bSBS8KIR6').visit("https://springboardcollab.my.salesforce.com/")
     cy.wait(4000)
     //Cypress.Cookies.preserveOnce()
 })
-*/
+
 it("Visit Staging: Confirm that User can visit the Staging Website", function () {
     cy.visit("http://staging-sb.u2i.eu/teacher-companion/demo")
     cy.get('#email').type('s.toseafa@springboardcollaborative.org')
