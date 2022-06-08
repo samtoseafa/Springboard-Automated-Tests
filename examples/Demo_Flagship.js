@@ -100,48 +100,12 @@ it("Attendance: Confirm that User can add a note", function () {
     cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(4) > .sidebar-link').click()
     
 })
-
+/*
 it("All done: No issues to report!", function () {
     cy.get('.sidebar-nav > div > .btn').click()
     cy.wait(5000)
 })
-
-
-
-
-
-/*
-it("Quotes and Photos: Confirm that User ", function () {
-    cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(5) > .sidebar-link').click()
-    cy.wait(10000)
-})
 */
-
-
-
-
-/*
-it("Visit Staging", function () {
-    cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(4) > .sidebar-link').click()
-    cy.wait(5000)
-    cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(5) > .sidebar-link').click()
-    cy.wait(5000)
-    cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(6) > .sidebar-link').click()
-    cy.wait(5000)
-    cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(7) > .sidebar-link').click()
-    cy.wait(5000)
-    cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(8) > .sidebar-link').click()
-    cy.wait(5000)
-    cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(9) > .sidebar-link').click()
-    cy.wait(5000)
-    cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(10) > .sidebar-link').click()
-    cy.wait(5000)
-    cy.get('.scrollbar-container > .sidebar-nav > .nav > :nth-child(11) > .sidebar-link').click()
-    cy.wait(10000)
-    cy.get('.sidebar-nav > div > .btn').click()
-})
-*/
-
 
 
 
